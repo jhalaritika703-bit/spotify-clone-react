@@ -1,16 +1,44 @@
-# React + Vite
+# 🎵 Spotify Clone (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Spotify-inspired music player built using **React**.  
+This project demonstrates frontend development fundamentals such as component-based architecture, global state management, routing, and audio playback using **local data and files**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ✨ Features
 
-## React Compiler
+- Play and pause songs  
+- Next and previous track controls  
+- Album listing and album detail view  
+- Song selection with instant playback  
+- Song progress bar with time display  
+- Global music player shared across pages  
+- Client-side navigation  
+- Clean, Spotify-style UI  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+ 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React  
+- Context API  
+- React Router DOM  
+- Vite  
+- JavaScript (ES6+)  
+- CSS / utility-based styling  
+
+🎧 How It Works
+
+- Songs and albums are stored as local data inside the project  
+- Music files are included locally  
+- A single global music player is used throughout the app  
+- Context is used to manage:
+  - current song  
+  - play / pause state  
+  - progress and timing  
+- Selecting a song updates the global player and starts playback  
+
+
+
+## 📂 Project Structure
+
