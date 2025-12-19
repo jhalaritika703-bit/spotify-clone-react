@@ -41,4 +41,16 @@ This project demonstrates frontend development fundamentals such as component-ba
 
 
 ## 📂 Project Structure
+potify-clone-react/
+├── public/
+├── src/
+│ ├── assets/ # Images, icons, and song files
+│ ├── components/ # Reusable UI components
+│ ├── Context/ # Global player state
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
 
